@@ -1,0 +1,17 @@
+.app__intermission-image img {
+  opacity: 0%;
+  height: 150px;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 950px) {
+  .app__intermission-image img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__intermission-image img {
+    display: none;
+  }
+}
